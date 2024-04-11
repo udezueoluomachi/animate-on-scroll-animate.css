@@ -40,4 +40,14 @@ export default function Component() {
 }
 ```
 
-The value of the `animation-settings` attributes are to be the animate.css animaton classes except from `animate__animate` and `animate__animated` classes
+The value of the `animation-settings` attributes are to be the animate.css animaton classes except from and `animate__animated` class.
+
+## Live Samples
+
+S/N | Live link| Source code | Note
+----|----------|---------|--
+ 1 | [My Portfolio's home page](https://dream-dev.vercel.app) | [here](https://github.com/udezueoluomachi/portfolio/blob/main/src/app/page.jsx) | This project originated from here. I wrote it initially while building my portfolio.
+
+ ## Note
+
+ I might not update this project in the future because of time. There are lot of features it could have. I am only publishing this because I do not want to keep on moving files just to use my code. I want to use via `npm install` instead. It is 3:23 am 4/11/2024. I need sleep. I have a project I am working on simultaneously. Happy coding. Made with 🫡. Bye for now.
