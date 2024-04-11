@@ -50,4 +50,4 @@ S/N | Live link| Source code | Note
 
  ## Note
 
- I might not update this project in the future because of time. There are lot of features it could have. I am only publishing this because I do not want to keep on moving files just to use my code. I want to use via `npm install` instead. It is 3:23 am 4/11/2024. I need sleep. I have a project I am working on simultaneously. Happy coding. Made with 🫡. Bye for now.
+ I might not update this project in the future because of time. There are lot of features it could have. I am only publishing this because I do not want to keep on moving files just to use my code. I want to use via `npm install` instead. It is 3:23 am 4/11/2024. I need sleep. I have a project I am working on simultaneously. Happy coding. Made with 🫡. Bye for now. Please make a pull request.
