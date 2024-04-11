@@ -30,9 +30,10 @@ export default function Component() {
         //add ref
         //specify the element which when it appears in the viewport triggers the animation
         //add animation-settings attributes to the elements to be animated.
+        //Add animate__onscroll class to the classList of the element to be animated.
         <div ref={scrollElem}>
             <div className="animate-onscroll-trigger">
-                <p animation-settings="animate__fadeInDown animate__slower">
+                <p animation-settings="animate__fadeInDown animate__slower" className="animate__onscroll" >
                     hello world
                 </p>
             </div>
