@@ -1,6 +1,6 @@
 {
   "name": "react-animate-on-scroll-animate.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react hook that uses intersecton observer API and classes from https://animate.style/. The animations are triggered when the element if in view of the viewport.",
   "main": "index.js",
   "scripts": {

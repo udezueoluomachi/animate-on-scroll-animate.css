@@ -6,7 +6,7 @@ const useAnimationOnScroll = (scrollRef) => {
     useEffect(() => {
         const scrollableElement = scrollRef ? scrollRef.current : null;
         if(!scrollableElement) 
-            return
+            console.log("Using viewport as the root scroll element")
 
         const animationTriggers = document.querySelectorAll(".animate-onscroll-trigger")
 
