@@ -1,0 +1,34 @@
+{
+  "name": "react-animate-on-scroll-animate.css",
+  "version": "1.0.0",
+  "description": "A react hook that uses intersecton observer API and classes from https://animate.style/. The animations are triggered when the element if in view of the viewport.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udezueoluomachi/react-animate-on-scroll-animate.css.git"
+  },
+  "keywords": [
+    "React",
+    "Animation",
+    "Animate",
+    "on",
+    "scroll",
+    "scroll",
+    "revealjs",
+    "javascript",
+    "scroll",
+    "animation"
+  ],
+  "author": "Udezue Oluomachi Chimaobi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/udezueoluomachi/react-animate-on-scroll-animate.css.git/issues"
+  },
+  "homepage": "https://github.com/udezueoluomachi/react-animate-on-scroll-animate.css.git#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
