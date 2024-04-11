@@ -25,6 +25,7 @@ import {useRef} from "react";
 //vertically scrollable component whose children should be animated.
 export default function Component() {
     const scrollElem = useRef(null)
+    useAnimationOnScroll(scrollElem)
     return (
         //add ref
         //specify the element which when it appears in the viewport triggers the animation
