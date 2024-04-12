@@ -32,6 +32,7 @@ const useAnimationOnScroll = (scrollRef, options) => {
         const observerTask = (entries, observer) => {
             entries.forEach(entry => {
                 const visibleCont = entry.target
+                visibleCont.style.visibility = "hidden";
                 if(entry.isIntersecting === true && entry.intersectionRatio > 0.4) {
                     visibleCont.style.visibility = "visible";
                     const childrenToAnimate = visibleCont.querySelectorAll(".animate__onscroll");
