@@ -38,7 +38,7 @@ const useAnimationOnScroll = (scrollRef, options) => {
 
                     childrenToAnimate.forEach(child => startAnimatingChild(child))
                 }
-                else if(entry.isIntersecting === true && entry.intersectionRatio < 0.4) {
+                else if(entry.isIntersecting === true && entry.intersectionRatio < 0.4 && options?.noRepeat != true) {
                     visibleCont.style.visibility = "hidden";
                 }
             })
