@@ -2,7 +2,7 @@
 import {useEffect} from "react";
 
 
-const useAnimationOnScroll = (scrollRef) => {
+const useAnimationOnScroll = (scrollRef, options) => {
     useEffect(() => {
         const scrollableElement = scrollRef ? scrollRef.current : null;
         if(!scrollableElement) 
@@ -19,8 +19,11 @@ const useAnimationOnScroll = (scrollRef) => {
             child.classList.add(`animate__animated`, ...animations);
 
             function handleAnimationEnd(event) {
-              event.stopPropagation();
-              child.classList.remove(`animate__animated`, ...animations);
+                if(options?.noRepeat) {
+                  return
+                }
+                event.stopPropagation();
+                child.classList.remove(`animate__animated`, ...animations);
             }
 
             child.addEventListener('animationend', handleAnimationEnd, {once: true});

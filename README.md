@@ -1,6 +1,8 @@
 # REACT ANIMATE ON SCROLL HOOK
 
-`useAnimationOnScroll(scrollRef)`
+```javascript
+useAnimationOnScroll(scrollElem || null, {noRepeat : false})
+```
 
 ## How to use
 
@@ -25,7 +27,7 @@ import {useRef} from "react";
 //vertically scrollable component whose children should be animated.
 export default function Component() {
     const scrollElem = useRef(null)
-    useAnimationOnScroll(scrollElem || null)
+    useAnimationOnScroll(scrollElem || null, {noRepeat : false})
     return (
         //add ref
         //specify the element which when it appears in the viewport triggers the animation
